@@ -1,0 +1,38 @@
+
+div {
+    font-family: Helvetica;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    padding: 5px;
+ }
+  
+ nav {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+img {
+   width: 900px;
+}
+
+ .pic {
+    width: 90px;
+ }
+
+
+ .items:hover {
+    background-color: grey;;
+    opacity:0.5;
+ }
+ @media(max-width: 530px) {
+   
+   p {
+       font-size: 110%;
+   }
+   li {
+      font-size: 95%;
+   }
+   }
